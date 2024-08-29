@@ -69,7 +69,7 @@ function resetGame() {
   userScorePara.innerText = userScore;
   compScorePara.innerText = compScore;
   msg.innerText = "Game reset. Start playing!";
-  msg.style.backgroundColor = "#f1f1f1"; // Optional: Reset to a neutral background
+  msg.style.backgroundColor = "black"; // Optional: Reset to a neutral background
 }
 
 // Attach the resetGame function to the reset button
